@@ -166,6 +166,28 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <None Include="Resources\Icon\icon.png" />
+    <None Include="Resources\Image\background.jpg" />
+    <None Include="Resources\Image\carozzi.png" />
+    <None Include="Resources\Image\cementosbiobio.png" />
+    <None Include="Resources\Image\cocacola.png" />
+    <None Include="Resources\Image\cpp.png" />
+    <None Include="Resources\Image\cs.png" />
+    <None Include="Resources\Image\facebook.png" />
+    <None Include="Resources\Image\futuro.png" />
+    <None Include="Resources\Image\github.png" />
+    <None Include="Resources\Image\html5.png" />
+    <None Include="Resources\Image\java.png" />
+    <None Include="Resources\Image\loteriagg.png" />
+    <None Include="Resources\Image\manonthemoon.png" />
+    <None Include="Resources\Image\mcdonalds.png" />
+    <None Include="Resources\Image\mysql.png" />
+    <None Include="Resources\Image\netbeans.png" />
+    <None Include="Resources\Image\pepsi.png" />
+    <None Include="Resources\Image\previewloteriagg.png" />
+    <None Include="Resources\Image\previewmanonthemoon.png" />
+    <None Include="Resources\Image\twitter.png" />
+    <None Include="Resources\Image\visualstudio.png" />
+    <None Include="Resources\Image\vtr.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -205,7 +227,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Resources\Image\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
