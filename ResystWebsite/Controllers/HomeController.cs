@@ -15,14 +15,14 @@ namespace ResystWebsite.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Resyst Softwares' Website.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "contacto@resyst.com";
 
             return View();
         }
