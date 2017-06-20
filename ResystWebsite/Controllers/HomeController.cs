@@ -10,11 +10,13 @@ namespace ResystWebsite.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Resyst Softwares' Official Website";
             return View();
         }
 
         public ActionResult About()
         {
+            ViewBag.Title = "Acerca de ";
             ViewBag.Message = "Resyst Softwares' Website.";
 
             return View();
@@ -22,8 +24,16 @@ namespace ResystWebsite.Controllers
 
         public ActionResult Contact()
         {
+            ViewBag.Title = "Contacto";
             ViewBag.Message = "contacto@resyst.com";
 
+            return View();
+        }
+
+        public ActionResult Products()
+        {
+            ViewBag.Title = "Productos";
+            ViewBag.Message = "Productos";
             return View();
         }
     }
