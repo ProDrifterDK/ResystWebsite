@@ -4,37 +4,30 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ResystWebsite.Controllers
-{
-    public class HomeController : Controller
-    {
-        public ActionResult Index()
-        {
-            ViewBag.Title = "Resyst Softwares' Official Website";
-            return View();
-        }
+namespace ResystWebsite.Controllers {
+	public class HomeController : Controller {
+		public ActionResult Index() {
+			ViewBag.WindowTitle = "Resyst Softwares' Official Website";
+			ViewBag.Title = "Resyst Softwares Inc.™";
+			return View();
+		}
 
-        public ActionResult About()
-        {
-            ViewBag.Title = "Acerca de ";
-            ViewBag.Message = "Resyst Softwares' Website.";
+		public ActionResult About() {
+			ViewBag.WindowTitle = "Acerca de";
+			ViewBag.Title = "Acerca de nosotros";
+			return View();
+		}
 
-            return View();
-        }
+		public ActionResult Contact() {
+			ViewBag.WindowTitle = "Contacto";
+			ViewBag.Title = "Contáctenos";
+			return View();
+		}
 
-        public ActionResult Contact()
-        {
-            ViewBag.Title = "Contacto";
-            ViewBag.Message = "contacto@resyst.com";
-
-            return View();
-        }
-
-        public ActionResult Products()
-        {
-            ViewBag.Title = "Productos";
-            ViewBag.Message = "Productos";
-            return View();
-        }
-    }
+		public ActionResult Products() {
+			ViewBag.WindowTitle = "Productos";
+			ViewBag.Title = "Productos destacados";
+			return View();
+		}
+	}
 }
