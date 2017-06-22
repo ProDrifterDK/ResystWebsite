@@ -160,13 +160,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <None Include="Resources\Icon\icon.png" />
-    <None Include="Resources\Image\background.jpg" />
     <None Include="Resources\Image\carozzi.png" />
     <None Include="Resources\Image\cementosbiobio.png" />
     <None Include="Resources\Image\cocacola.png" />
@@ -188,6 +186,7 @@
     <None Include="Resources\Image\twitter.png" />
     <None Include="Resources\Image\visualstudio.png" />
     <None Include="Resources\Image\vtr.png" />
+    <None Include="Resources\Image\background.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

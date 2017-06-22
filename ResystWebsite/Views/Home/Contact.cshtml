@@ -1,11 +1,31 @@
 ﻿<!DOCTYPE html>
 
 <html>
+
 <head>
 	<meta name="viewport" content="width=device-width" />
 </head>
+
 <body>
-	<div>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<form>
+				<div class="form-group">
+					<label>Nombre completo:</label>
+					<input class="form-control" id="name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+				<div class="form-group">
+					<label>Mensaje:</label>
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				</div>
+				<button type="submit" class="btn btn-default">Enviar</button>
+			</form>
+		</div>
 	</div>
 </body>
+
 </html>

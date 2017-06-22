@@ -1,15 +1,70 @@
-﻿logo {
+﻿/* General */
+* {
+	font-family: Ubuntu;
 }
 
+/* Encabezados */
+h1, h2, h3, h4, h5 {
+	font-family: Ubuntu;
+}
+
+/* Navbar */
+.navbar-default {
+	padding-top: 20px;
+	background: url(../Resources/Image/background.png) no-repeat center right;
+	border: none;
+	height: 300px;
+}
+
+.navbar .nav > li > a {
+	color: #ffffff;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	font-size: 24px;
+}
+
+.navbar .navbar-collapse {
+	text-align: right;
+}
+
+.navbar-brand {
+	background: url(../Resources/Icon/icon.png) no-repeat center center;
+	position: static;
+	width: 58px;
+	height: 58px;
+	background-size: cover;
+}
+
+#brand {
+	width: 15%;
+}
+
+ul.nav a:hover {
+	color: #cccccc !important;
+}
+
+/* Header */
+.jumbotron {
+	background: transparent;
+	text-align: center;
+	font-size: 64px;
+	color: white;
+}
+/* Body */
 body {
-	padding-top: 50px;
+	padding-top: 0;
 	padding-bottom: 20px;
+	background: #eeeeee;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-	padding-left: 15px;
-	padding-right: 15px;
+	position: static;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
