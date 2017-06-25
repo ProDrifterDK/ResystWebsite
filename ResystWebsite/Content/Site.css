@@ -53,11 +53,13 @@ ul.nav a:hover {
 	font-size: 64px;
 	color: white;
 }
+
 /* Body */
 body {
 	padding-top: 0;
 	padding-bottom: 20px;
 	background: #eeeeee;
+	text-align: center;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -67,16 +69,14 @@ body {
 	padding-right: 20px;
 }
 
+/* Formulario de contacto */
+.form-group {
+	text-align: left;
+}
+
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
 .dl-horizontal dt {
 	white-space: normal;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-	max-width: 280px;
 }
