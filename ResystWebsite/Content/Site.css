@@ -54,6 +54,11 @@ ul.nav a:hover {
 	color: white;
 }
 
+/* Galería */
+.row {
+	line-height: 256px;
+}
+
 /* Body */
 body {
 	padding-top: 0;
