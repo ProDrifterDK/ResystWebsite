@@ -32,9 +32,7 @@ namespace ResystWebsite.Controllers {
 			ViewBag.WindowTitle = "Productos";
 			ViewBag.Title = "Productos destacados";
 			ViewBag.Product1_Title = "LoteríaGG";
-			ViewBag.Product1_Description = "LoteríaGG es un sitio web dedicado a sortear códigos para intercambiarlos por videojuegos. Para utilizar esta plataforma, el usuario deberá inscribirse en el sitio, y comprar “GGcoins” para poder canjearlos por inscripciones a determinados sorteos.";
 			ViewBag.Product2_Title = "Man on the Moon Studio";
-			ViewBag.Product2_Description = "Man on the Moon Studio es un programa dedicado a la edición de audio. Permite editar archivos de audio simples, o varios sonidos, mediante sesiones multipista. Incluye sintetizadores de voz, diseñados específicamente para canciones.";
 			return View();
 		}
 	}

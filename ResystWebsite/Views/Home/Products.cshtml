@@ -7,17 +7,27 @@
 </head>
 
 <body>
-	<div id="previewloteriagg">
-		<h3>@ViewBag.Product1_Title</h3>
+	<div class="row">
+		<div class="col-xs-12 col-md-5">
+			<h3>@ViewBag.Product1_Title</h3>
+			<img src="~/Resources/Image/previewloteriagg.png" width=512 />
+		</div>
+		<div class="col-xs-12 col-md-7">
+			<h3 id="descripciongg">
+				LoteríaGG es un sitio web dedicado a sortear códigos para intercambiarlos por videojuegos. Para utilizar esta plataforma, el usuario deberá inscribirse en el sitio, y comprar “GGcoins” para poder canjearlos por inscripciones a determinados sorteos.
+			</h3>
+		</div>
 	</div>
-	<div>
-		@ViewBag.Product1_Description
-	</div>
-	<div id="previewmanonthemoon">
-		<h3>@ViewBag.Product2_Title</h3>	
-	</div>
-	<div>
-		@ViewBag.Product2_Description
+	<div class="row">
+		<div id="descripcionmoon" class="col-xs-12 col-md-7">
+			<h3>
+				Man on the Moon Studio es un programa dedicado a la edición de audio. Permite editar archivos de audio simples, o varios sonidos, mediante sesiones multipista. Incluye sintetizadores de voz, diseñados específicamente para canciones.
+			</h3>
+		</div>
+		<div class="col-xs-12 col-md-5">
+			<h3>@ViewBag.Product2_Title</h3>
+			<img src="~/Resources/Image/previewmanonthemoon.png" width=512 />
+		</div>
 	</div>
 </body>
 
