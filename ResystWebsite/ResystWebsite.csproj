@@ -164,6 +164,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Resources\Icon\icon.png" />
     <None Include="Resources\Image\carozzi.png" />
     <None Include="Resources\Image\cementosbiobio.png" />
