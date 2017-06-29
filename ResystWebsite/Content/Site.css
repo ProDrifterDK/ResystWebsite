@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5 {
 /* Navbar */
 .navbar-default {
 	padding-top: 20px;
-	background: url(../Resources/Image/background.png) no-repeat center right;
+	background: url(../Resources/Image/background.jpeg) no-repeat center right;
 	border: none;
 	height: 300px;
 }
@@ -33,18 +33,19 @@ h1, h2, h3, h4, h5 {
 .navbar-brand {
 	background: url(../Resources/Icon/icon.png) no-repeat center center;
 	position: static;
-	width: 58px;
-	height: 58px;
+	width: 90px;
+	height: 90px;
 	background-size: cover;
 }
 
 #footer-right {
-	text-align: right;
+	text-align: center;
 }
 
 #footer-left {
-	margin-left: auto;
-	margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
 }
 
 #socialMedia {
@@ -116,11 +117,19 @@ ul.nav a:hover {
 	padding-right: -600px;
 }
 
-#descripcionmoon{
+#descripcionmoon {
 	padding-top: 100px;
 	padding-left: 15px;
 	padding-right: 140px;
 }
+
+/* Acerca de */
+#headerAbout {
+    color:black; 
+    padding-top: 200px;
+    font-size: 70px;
+}
+
 
 /* Body */
 body {
