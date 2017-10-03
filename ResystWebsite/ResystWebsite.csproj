@@ -188,6 +188,7 @@
     <None Include="Resources\Image\visualstudio.png" />
     <None Include="Resources\Image\vtr.png" />
     <None Include="Resources\Image\background.png" />
+    <Content Include="Resources\Image\background.jpeg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
